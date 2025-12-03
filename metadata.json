@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Maxode Events - Premium Event Solutions",
+  "description": "Maxode Events is a premier South African event management and infrastructure company specializing in marquees, technical production, and luxury event styling.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
