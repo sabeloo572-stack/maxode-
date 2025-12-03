@@ -68,10 +68,10 @@ export const Home: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <ScrollReveal direction="up" mode="slide">
               <h2 className="text-[clamp(2rem,4vw,3rem)] font-serif font-bold text-maxode-primary mb-6 leading-tight">
-                Redefining Event Standards for 2025
+                Our Work Speaks for Itself
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6 text-lg">
-                Maxode Events is more than a rental company; we are your production partner. We combine high-end infrastructure with meticulous planning.
+                We design, build, and execute stunning event setups that combine creativity, structure, and attention to detail. Each project reflects our commitment to quality and modern event styling.
               </p>
               <Link to="/about" className="text-maxode-primary font-bold flex items-center gap-2 hover:gap-4 transition-all group">
                 Why choose us <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -82,8 +82,8 @@ export const Home: React.FC = () => {
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-full h-full border-2 border-maxode-accent rounded-3xl z-0 transform -rotate-2" />
                 <img 
-                  src="https://picsum.photos/id/338/600/600" 
-                  alt="Event Setup" 
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop" 
+                  alt="The Maxode Team" 
                   className="rounded-3xl shadow-premium relative z-10 w-full h-[400px] md:h-[500px] object-cover"
                   loading="lazy"
                 />
@@ -98,7 +98,7 @@ export const Home: React.FC = () => {
         <div className="container mx-auto px-6">
           <ScrollReveal>
             <div className="text-center mb-12">
-              <span className="text-maxode-accent font-bold uppercase tracking-widest text-xs mb-2 block">What We Do</span>
+              <span className="text-maxode-accent font-bold uppercase tracking-widest text-xs mb-2 block">Full Infrastructure Solutions</span>
               <h2 className="text-[clamp(2rem,4vw,3rem)] font-serif font-bold text-maxode-primary">Our Expertise</h2>
             </div>
           </ScrollReveal>
@@ -117,7 +117,7 @@ export const Home: React.FC = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-8">
                     <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                       <h3 className="text-2xl font-bold text-white mb-2">{service.title}</h3>
-                      <p className="text-gray-200 text-sm line-clamp-2 mb-4">{service.description}</p>
+                      <p className="text-gray-200 text-sm line-clamp-3 mb-4 leading-relaxed">{service.description}</p>
                       <Link to="/services" className="text-maxode-accent font-bold text-sm flex items-center gap-1 hover:gap-2 transition-all">
                         Explore <ArrowRight size={14} />
                       </Link>

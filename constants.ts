@@ -8,27 +8,43 @@ export const SOCIAL_HANDLE = "@maxodeevents";
 export const SERVICES: ServiceItem[] = [
   {
     id: 'marquee-1',
-    title: 'Luxury Marquee Structures',
+    title: 'Marquee & Structure Hire',
     category: ServiceCategory.MARQUEE,
-    description: 'Premium aluminium frame marquees, stretch tents, and glass-sided structures for any weather condition.',
+    description: 'We provide world-class outdoor cover. From elegant glass-fronted marquees for weddings to massive aluminium frame tents for political rallies and community gatherings. Safe, waterproof, and suitable for any terrain.',
     image: 'https://picsum.photos/id/43/800/600',
-    features: ['Clear-span structures', 'Flooring & carpeting', 'Air conditioning', 'Glass facades']
+    features: ['Aluminium Frame Marquees', 'Stretch & Peg and Pole Tents', 'Glass Facades & Flooring', 'Air Conditioning']
   },
   {
     id: 'tech-1',
-    title: 'Concert-Grade Audio Visual',
+    title: 'Stage, Sound, Lighting & Screens',
     category: ServiceCategory.AV,
-    description: 'Immersive soundscapes and intelligent lighting design to transform venues.',
+    description: 'A full technical production solution. We supply certified staging, crystal-clear line array sound systems, intelligent lighting rigs, and large-format LED screens so your message is seen and heard.',
     image: 'https://picsum.photos/id/453/800/600',
-    features: ['Line array sound systems', 'Intelligent moving heads', 'LED video walls', 'Live streaming rigs']
+    features: ['LED Video Walls', 'Line Array Audio', 'Intelligent Lighting', 'Certified Staging & Rigging']
+  },
+  {
+    id: 'events-1',
+    title: 'Major Events & Traditional Functions',
+    category: ServiceCategory.PLANNING,
+    description: 'We specialize in "Big Events." Whether it is a high-stakes corporate gala, a large-scale political manifesto launch, a traditional celebration, or a luxury wedding, we manage the crowd and the experience.',
+    image: 'https://picsum.photos/id/201/800/600',
+    features: ['Political Rallies', 'Traditional Ceremonies', 'Corporate Galas', 'Luxury Weddings']
   },
   {
     id: 'decor-1',
-    title: 'Bespoke Event Styling',
+    title: 'Event Styling & Decor',
     category: ServiceCategory.DECOR,
-    description: 'Curated décor themes, floral installations, and tablescaping that tells a story.',
+    description: 'Transforming spaces with curated décor. We handle everything from draping and table settings to floral installations that match your theme perfectly.',
     image: 'https://picsum.photos/id/250/800/600',
-    features: ['Custom centerpieces', 'Draping & linings', 'Thematic props', 'Tableware hire']
+    features: ['Custom Centerpieces', 'Draping & Linings', 'Thematic Props', 'Tableware Hire']
+  },
+  {
+    id: 'furniture-1',
+    title: 'Premium Furniture Hire',
+    category: ServiceCategory.FURNITURE,
+    description: 'Modern, comfortable, and stylish furniture to elevate your guest experience. From VIP lounges to banquet seating.',
+    image: 'https://picsum.photos/id/339/800/600',
+    features: ['Tiffany & Phoenix Chairs', 'VIP Lounge Pockets', 'Cocktail Tables', 'Bar Structures']
   },
   {
     id: 'stage-1',
@@ -36,23 +52,7 @@ export const SERVICES: ServiceItem[] = [
     category: ServiceCategory.STAGE,
     description: 'Safe, certified staging solutions for conferences, festivals, and fashion shows.',
     image: 'https://picsum.photos/id/158/800/600',
-    features: ['Modular stages', 'Catwalks', 'Trussing & rigging', 'Podiums']
-  },
-  {
-    id: 'furniture-1',
-    title: 'Premium Furniture Hire',
-    category: ServiceCategory.FURNITURE,
-    description: 'Modern, comfortable, and stylish furniture to elevate your guest experience.',
-    image: 'https://picsum.photos/id/339/800/600',
-    features: ['Tiffany & Phoenix chairs', 'Lounge pockets', 'Cocktail tables', 'VIP seating']
-  },
-  {
-    id: 'planning-1',
-    title: 'End-to-End Management',
-    category: ServiceCategory.PLANNING,
-    description: 'Meticulous coordination from concept to cleanup. We handle the stress so you can host.',
-    image: 'https://picsum.photos/id/201/800/600',
-    features: ['Timeline management', 'Vendor coordination', 'Safety compliance', 'On-site management']
+    features: ['Modular Stages', 'Catwalks', 'Trussing & Rigging', 'Podiums']
   }
 ];
 
